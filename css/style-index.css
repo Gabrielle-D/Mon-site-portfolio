@@ -1,0 +1,55 @@
+section {
+    background-color: thistle;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+section h2 {
+    margin-top: 0px;
+    color: black;
+    background: linear-gradient(mediumpurple, rgb(200, 187, 224));  
+    display: inline-block;
+    padding: 10px;
+}
+
+#portfolio {
+    border: 2px solid blueviolet;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+ul {
+    border-bottom: 2px solid thistle;
+    padding-bottom:50px ;
+} 
+
+header h2 {
+    color: black;
+    border-top: 2px solid thistle;
+    padding-top: 50px;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+img {
+    width: 250px;
+}
+
+figure {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(196, 174, 196);
+}
+
+main {
+    background-image: url(decos/dessin1.gif);
+    background-repeat: no-repeat;
+    padding-top: 75px ;
+}
