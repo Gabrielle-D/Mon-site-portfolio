@@ -1,55 +1,15 @@
 section {
-    background-color: thistle;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(216, 191, 216, 0.2);
     padding-top: 5px;
     padding-left: 5px;
+    margin-bottom: 100px;
 }
 
 section h2 {
     margin-top: 0px;
-    color: black;
-    background: linear-gradient(mediumpurple, rgb(200, 187, 224));  
+    color: rgb(0, 0, 0);
+    background: rgba(216, 191, 216, 0.6);
     display: inline-block;
     padding: 10px;
-}
-
-#portfolio {
-    border: 2px solid blueviolet;
-    padding: 30px;
-    text-align: center;
-    background-color: white;
-}
-
-ul {
-    border-bottom: 2px solid thistle;
-    padding-bottom:50px ;
-} 
-
-header h2 {
-    color: black;
-    border-top: 2px solid thistle;
-    padding-top: 50px;
-}
-
-header nav li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 15px;
-}
-
-img {
-    width: 250px;
-}
-
-figure {
-    text-align: center;
-}
-
-body {
-    background-color: rgb(196, 174, 196);
-}
-
-main {
-    background-image: url(decos/dessin1.gif);
-    background-repeat: no-repeat;
-    padding-top: 75px ;
 }
