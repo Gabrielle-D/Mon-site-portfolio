@@ -1,0 +1,118 @@
+:root {
+    --color-black: rgb(0, 0, 0); 
+    --bg-color: rgb(221, 185, 255);
+    --bg-color2: rgb(255, 255, 255);
+}
+
+main {
+    background-size: cover;
+    background-image: url(decos/site-fond.jpg);
+}
+
+.contenu {
+    border: 2px solid var(--bg-color);
+    background-color: rgba(226, 164, 255, 0.616);
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-bottom: 100px;
+}
+
+.contenu h2 {
+    margin-top: 0px;
+    color: var(--color-black);
+    background: var(--bg-color);
+    display: inline-block;
+    padding: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    padding-bottom: 100px;
+    font-size: 120%;
+    padding-top: 50px;
+  }
+  
+  p {
+    color: var(--color-black);
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 120%;
+  }
+  
+  li {
+    color: var(--color-black);
+    text-align: center;
+  }
+  
+  a {
+    color: var(--bg-color);
+    text-decoration: none;
+  }
+  
+  figure {
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 50px;
+  }
+  
+  figure img {
+    width: 20%;
+  }
+  
+  img {
+    width: 40%;
+  }
+  
+  header {
+    background-image: url(decos/site-head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  
+  main {
+    border-top: 5px solid var(--bg-color);
+    border-bottom: 5px solid var(--bg-color);
+  }
+  
+  header nav li {
+    color: var(--bg-color);
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  h1 {
+    background: var(--bg-color);
+    border: 2px solid var(--color-black);
+    padding: 30px;
+    text-align: center;
+    color: var(--color-black);
+    font-size: 300%;
+  }
+  
+  body {
+    background-color: var(--bg-color2);
+  }
+  
+  footer {
+    background-color: var(--color-black);
+  }
+  
+  /*mobile*/
+  
+  @media (min-width: 768px) {
+    nav li {
+      display: grid;
+    }
+  }
+  
+  h1 {
+    font-size: clamp(2rem, 1.75rem + 1vw, 2.5rem);
+  }
+  
